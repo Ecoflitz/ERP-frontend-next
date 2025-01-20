@@ -79,7 +79,7 @@ export const WidgetCreator = ({
 
   return (
     <>
-      <CardBox id='widgetCreator' className='mb-6 relative'>
+      {/* <CardBox id='widgetCreator' className='mb-6 relative'>
         <BaseButton
           className='absolute top-0 right-0 m-4'
           icon={mdiCog}
@@ -110,7 +110,7 @@ export const WidgetCreator = ({
             </FormField>
           </Form>
         </Formik>
-      </CardBox>
+      </CardBox> */}
       <Formik
         initialValues={{
           role: '',
