@@ -112,13 +112,13 @@ const menuAside: MenuAsideItem[] = [
     icon: icon.mdiHome,
     withDevider: true,
   },
-  {
-    href: '/api-docs',
-    target: '_blank',
-    label: 'Swagger API',
-    icon: icon.mdiFileCode,
-    permissions: 'READ_API_DOCS',
-  },
+  // {
+  //   href: '/api-docs',
+  //   target: '_blank',
+  //   label: 'Swagger API',
+  //   icon: icon.mdiFileCode,
+  //   permissions: 'READ_API_DOCS',
+  // },
 ];
 
 export default menuAside;
