@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseButton from '../../../BaseButton';
+import headerImg from 'public/Headers.png';
 
 const HeroImageBg = ({
   mainText,
@@ -11,7 +12,7 @@ const HeroImageBg = ({
   <div
     className='relative w-full h-screen flex items-center justify-center text-center mb-24  bg-cover bg-center'
     style={{
-      backgroundImage: `url(${imageHero[0]?.src})`,
+      backgroundImage: `url(${headerImg})`,
     }}
   >
     <div className='absolute inset-0 bg-black opacity-50'></div>
@@ -26,11 +27,6 @@ const HeroImageBg = ({
         color='info'
         className='px-4 sm:px-6 py-2 '
       />
-    </div>
-    <div className='absolute bottom-2 text-[8px] text-white w-full flex justify-center'>
-      <a href={imageHero[0]?.photographer_url} target='_blank' rel='noreferrer'>
-        Photo by {imageHero[0]?.photographer} on Pexels
-      </a>
     </div>
   </div>
 );
