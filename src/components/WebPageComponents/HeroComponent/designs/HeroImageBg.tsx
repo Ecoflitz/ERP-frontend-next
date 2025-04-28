@@ -1,7 +1,6 @@
 import React from 'react';
 import BaseButton from '../../../BaseButton';
 // Update the import path to reference the public directory properly
-import headerImg from '/public/Headers.png';
 
 const HeroImageBg = ({
   mainText,
@@ -13,7 +12,7 @@ const HeroImageBg = ({
   <div
     className='relative w-full h-screen flex items-center justify-center text-center mb-24  bg-cover bg-center'
     style={{
-      backgroundImage: `url(${headerImg})`,
+      backgroundImage: `url('/Headers.png')`,
     }}
   >
     <div className='absolute inset-0 bg-black opacity-50'></div>
