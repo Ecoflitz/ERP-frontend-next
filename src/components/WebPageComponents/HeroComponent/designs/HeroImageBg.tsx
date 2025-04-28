@@ -12,7 +12,7 @@ const HeroImageBg = ({
   <div
     className='relative w-full h-screen flex items-center justify-center text-center mb-24  bg-cover bg-center'
     style={{
-      backgroundImage: `url('/Headers.png')`,
+      backgroundImage: `url('/header.png')`,
     }}
   >
     <div className='absolute inset-0 bg-black opacity-50'></div>
