@@ -1,6 +1,7 @@
 import React from 'react';
 import BaseButton from '../../../BaseButton';
-import headerImg from 'public/Headers.png';
+// Update the import path to reference the public directory properly
+import headerImg from '/public/Headers.png';
 
 const HeroImageBg = ({
   mainText,
